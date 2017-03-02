@@ -1,11 +1,15 @@
 {
   "name": "ftm.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "console.time",
   "main": "lib/index.js",
   "repository": "kocisov/ftm.js",
   "author": "kocisov <kocis.34@gmail.com>",
   "license": "MIT",
+  "files": [
+    "lib",
+    "src"
+  ],
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
