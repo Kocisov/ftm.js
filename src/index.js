@@ -1,4 +1,4 @@
-export default class ftm {
+class ftm {
   constructor () {
     this.timers = []
   }
@@ -28,3 +28,5 @@ export default class ftm {
     return this
   }
 }
+
+export default new ftm()

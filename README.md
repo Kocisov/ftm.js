@@ -4,13 +4,11 @@
 ## Usage
 ```js
 // without transpiler
-const ftm = require('ftm.js')
+const ftm = require('ftm.js').default
 
 // with transpiler
 import ftm from 'ftm.js'
 
-const f = new ftm
-
-f.define('test').startAll()
+ftm.define('test').startAll()
 setTimeout(() => f.stop('test'), 2000)
 ```

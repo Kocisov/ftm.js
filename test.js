@@ -1,6 +1,5 @@
-const ftm = require('./lib/index.js').default
+const f = require('./lib/index.js').default
 const chalk = require('chalk')
-const f = new ftm
 
 console.log(chalk.yellow('before defining:'), f)
 
