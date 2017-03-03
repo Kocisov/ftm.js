@@ -1,8 +1,11 @@
 {
   "name": "ftm.js",
-  "version": "0.1.5",
+  "version": "0.1.5-1",
   "description": "console.time",
   "main": "./lib/index.js",
+  "scripts": {
+    "prepublish": "webpack -p"
+  },
   "repository": "kocisov/ftm.js",
   "author": "kocisov <kocis.34@gmail.com>",
   "license": "MIT",
